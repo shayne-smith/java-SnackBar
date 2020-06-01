@@ -57,6 +57,36 @@ public class Main {
 		System.out.println("Quantity of " + s3.getName() + " is " + s3.getQuantity());
 		System.out.println();
 
+		// Customer 2 (Bob) buys 2 of snack 4 (Soda)
+		c2.buySnacks(2 * s4.getCost());
+		s4.buySnacks(2);
+		System.out.println(c2.getName() + " cash on hand " + c2.getCashOnHand());
+		System.out.println("Quantity of " + s4.getName() + " is " + s4.getQuantity());
+		System.out.println();
+
+		// Customer 1 (Jane) finds $10
+		c1.addCashOnHand(10.00);
+		System.out.println(c1.getName() + " cash on hand " + c1.getCashOnHand());
+		System.out.println();
+
+ 		// Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar)
+ 		c1.buySnacks(1 * s2.getCost());
+		s2.buySnacks(1);
+		System.out.println(c1.getName() + " cash on hand " + c1.getCashOnHand());
+		System.out.println("Quantity of " + s2.getName() + " is " + s2.getQuantity());
+		System.out.println();
+
+ 		// Add 12 more items to snack 3 (Pretzel)
+		s3.addQuantity(12);
+		System.out.println("Quantity of " + s3.getName() + " is " + s3.getQuantity());
+		System.out.println();
+
+		// Customer 2 (Bob) buys 3 of snack 3 (Pretzel)
+		c2.buySnacks(3 * s3.getCost());
+		s3.buySnacks(3);
+		System.out.println(c2.getName() + " cash on hand " + c2.getCashOnHand());
+		System.out.println("Quantity of " + s3.getName() + " is " + s3.getQuantity());
+
 	}
 
 	public static void main(String[] args) {
