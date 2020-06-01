@@ -68,36 +68,31 @@ public class Main {
 		System.out.println("Snack: " + s1.getName());
 		System.out.println("Vending Machine: " + vm1.getName());
 		System.out.println("Quantity: " + s1.getQuantity());
-		System.out.print("Total Cost: $");
-		System.out.printf("%.2f%n%n", (s1.getQuantity() * s1.getCost()));
+		System.out.printf("Total Cost: $%.2f%n%n", (s1.getQuantity() * s1.getCost()));
 
 		// Snack: Chocolate Bar
 		System.out.println("Snack: " + s2.getName());
 		System.out.println("Vending Machine: " + vm1.getName());
 		System.out.println("Quantity: " + s2.getQuantity());
-		System.out.print("Total Cost: $");
-		System.out.printf("%.2f%n%n", (s2.getQuantity() * s2.getCost()));
+		System.out.printf("Total Cost: $%.2f%n%n", (s2.getQuantity() * s2.getCost()));
 
 		// Snack: Pretzel
 		System.out.println("Snack: " + s3.getName());
 		System.out.println("Vending Machine: " + vm1.getName());
 		System.out.println("Quantity: " + s3.getQuantity());
-		System.out.print("Total Cost: $");
-		System.out.printf("%.2f%n%n", (s3.getQuantity() * s3.getCost()));
+		System.out.printf("Total Cost: $%.2f%n%n", (s3.getQuantity() * s3.getCost()));
 
 		// Snack: Soda
 		System.out.println("Snack: " + s4.getName());
 		System.out.println("Vending Machine: " + vm2.getName());
 		System.out.println("Quantity: " + s4.getQuantity());
-		System.out.print("Total Cost: $");
-		System.out.printf("%.2f%n%n", (s4.getQuantity() * s4.getCost()));
+		System.out.printf("Total Cost: $%.2f%n%n", (s4.getQuantity() * s4.getCost()));
 
 		// Snack: Water
 		System.out.println("Snack: " + s5.getName());
 		System.out.println("Vending Machine: " + vm2.getName());
 		System.out.println("Quantity: " + s5.getQuantity());
-		System.out.print("Total Cost: $");
-		System.out.printf("%.2f%n", (s5.getQuantity() * s5.getCost()));
+		System.out.printf("Total Cost: $%,.2f%n", (s5.getQuantity() * s5.getCost()));
 	}
 
 	public static void main(String[] args) {
