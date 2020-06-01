@@ -71,7 +71,7 @@ public class Snack {
 		this.quantity += additionalSnacks;
 	}
 
-	public void buySnack(int numSnacks) {
+	public void buySnacks(int numSnacks) {
 		this.quantity -= numSnacks;
 	}
 }
